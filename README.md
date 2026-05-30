@@ -49,16 +49,45 @@ Upload a CSV of restaurant sales data. Get business insights and AI-powered reco
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/restaurant-sales-analyzer
+git clone https://github.com/etnikbabalija96-ui/restaurant-sales-analyzer
 cd restaurant-sales-analyzer
+```
+
+**Install dependencies:**
+```bash
+# Mac/Linux
 pip install -r requirements.txt
-cp .env.example .env          # then add your Anthropic API key
+
+# Windows
+py -m pip install -r requirements.txt
+```
+
+**Add your Anthropic API key:**
+```bash
+# Mac/Linux
+cp .env.example .env
+
+# Windows
+copy .env.example .env
+```
+Then open `.env` and add your key: `ANTHROPIC_API_KEY=sk-ant-...`
+
+**Run it:**
+```bash
+# Mac/Linux
 python main.py data/sample_sales.csv
+
+# Windows
+py main.py data/sample_sales.csv
 ```
 
 To run without an API key (skips AI section):
 ```bash
+# Mac/Linux
 python main.py data/sample_sales.csv --no-ai
+
+# Windows
+py main.py data/sample_sales.csv --no-ai
 ```
 
 ## CSV Format
@@ -82,36 +111,49 @@ A sample CSV is included at `data/sample_sales.csv`.
 
 ```bash
 # Basic analysis with AI recommendations
-python main.py your_data.csv
+py main.py your_data.csv
 
 # Skip AI (no API key needed)
-python main.py your_data.csv --no-ai
+py main.py your_data.csv --no-ai
 
 # Save report to file
-python main.py your_data.csv --output report.txt
+py main.py your_data.csv --output report.txt
 
 # Help
-python main.py --help
+py main.py --help
 ```
 
 ## Setup
 
 **1. Clone and install**
 ```bash
+# Mac/Linux
 pip install -r requirements.txt
+
+# Windows
+py -m pip install -r requirements.txt
 ```
 
 **2. Set your API key** (only needed for AI recommendations)
 ```bash
+# Mac/Linux
 cp .env.example .env
-# Edit .env and add: ANTHROPIC_API_KEY=sk-ant-...
+
+# Windows
+copy .env.example .env
 ```
+Then open `.env` and add: `ANTHROPIC_API_KEY=sk-ant-...`
+
 Get a key at [console.anthropic.com](https://console.anthropic.com).
 
 ## Running Tests
 
 ```bash
+# Mac/Linux
 python -m pytest tests/ -v
+
+# Windows
+py -m pytest tests/ -v
 ```
 
 24 tests covering CSV loading, revenue calculation, category analysis, server stats, edge cases, and serialization.
