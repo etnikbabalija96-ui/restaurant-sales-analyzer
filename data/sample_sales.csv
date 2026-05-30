@@ -1,0 +1,56 @@
+date,item,category,quantity,unit_price,server,table_number,day_of_week,time_of_day
+2024-01-01,Margherita Pizza,Pizza,3,14.99,Alice,5,Monday,Dinner
+2024-01-01,Caesar Salad,Salad,2,9.99,Alice,5,Monday,Dinner
+2024-01-01,Tiramisu,Dessert,1,7.99,Bob,3,Monday,Dinner
+2024-01-01,Carbonara Pasta,Pasta,4,16.99,Bob,3,Monday,Dinner
+2024-01-01,Sparkling Water,Drinks,5,3.99,Alice,5,Monday,Dinner
+2024-01-02,BBQ Burger,Burger,6,13.99,Carol,8,Tuesday,Lunch
+2024-01-02,Fries,Sides,6,4.99,Carol,8,Tuesday,Lunch
+2024-01-02,Chocolate Lava Cake,Dessert,2,8.99,Alice,2,Tuesday,Lunch
+2024-01-02,House Wine,Drinks,4,6.99,Alice,2,Tuesday,Lunch
+2024-01-02,Greek Salad,Salad,3,10.99,Bob,7,Tuesday,Dinner
+2024-01-03,Pepperoni Pizza,Pizza,5,15.99,Carol,4,Wednesday,Dinner
+2024-01-03,Garlic Bread,Sides,5,4.49,Carol,4,Wednesday,Dinner
+2024-01-03,Lasagna,Pasta,3,17.99,Bob,6,Wednesday,Dinner
+2024-01-03,Soft Drinks,Drinks,7,2.99,Bob,6,Wednesday,Dinner
+2024-01-04,Margherita Pizza,Pizza,2,14.99,Alice,1,Thursday,Lunch
+2024-01-04,Caesar Salad,Salad,4,9.99,Alice,1,Thursday,Lunch
+2024-01-04,BBQ Burger,Burger,3,13.99,Carol,9,Thursday,Dinner
+2024-01-04,Onion Rings,Sides,3,5.49,Carol,9,Thursday,Dinner
+2024-01-04,Cheesecake,Dessert,2,7.49,Bob,2,Thursday,Dinner
+2024-01-05,Seafood Linguine,Pasta,4,21.99,Alice,3,Friday,Dinner
+2024-01-05,House Wine,Drinks,8,6.99,Alice,3,Friday,Dinner
+2024-01-05,Bruschetta,Sides,6,6.99,Bob,5,Friday,Dinner
+2024-01-05,Tiramisu,Dessert,5,7.99,Bob,5,Friday,Dinner
+2024-01-05,Pepperoni Pizza,Pizza,7,15.99,Carol,10,Friday,Dinner
+2024-01-06,Pancakes,Breakfast,8,10.99,Alice,4,Saturday,Brunch
+2024-01-06,Eggs Benedict,Breakfast,6,12.99,Bob,7,Saturday,Brunch
+2024-01-06,Mimosa,Drinks,10,8.99,Alice,4,Saturday,Brunch
+2024-01-06,Avocado Toast,Breakfast,7,11.99,Carol,2,Saturday,Brunch
+2024-01-06,Margherita Pizza,Pizza,9,14.99,Bob,8,Saturday,Dinner
+2024-01-06,Seafood Linguine,Pasta,5,21.99,Carol,6,Saturday,Dinner
+2024-01-07,Eggs Benedict,Breakfast,5,12.99,Alice,3,Sunday,Brunch
+2024-01-07,Pancakes,Breakfast,7,10.99,Bob,5,Sunday,Brunch
+2024-01-07,Bloody Mary,Drinks,6,9.99,Carol,1,Sunday,Brunch
+2024-01-07,Caesar Salad,Salad,4,9.99,Alice,7,Sunday,Lunch
+2024-01-07,BBQ Burger,Burger,5,13.99,Bob,9,Sunday,Lunch
+2024-01-08,Carbonara Pasta,Pasta,2,16.99,Carol,4,Monday,Dinner
+2024-01-08,Greek Salad,Salad,3,10.99,Alice,6,Monday,Dinner
+2024-01-08,House Wine,Drinks,3,6.99,Bob,2,Monday,Dinner
+2024-01-09,Margherita Pizza,Pizza,4,14.99,Carol,5,Tuesday,Dinner
+2024-01-09,Garlic Bread,Sides,4,4.49,Carol,5,Tuesday,Dinner
+2024-01-10,Seafood Linguine,Pasta,3,21.99,Alice,8,Wednesday,Dinner
+2024-01-10,Tiramisu,Dessert,3,7.99,Bob,3,Wednesday,Dinner
+2024-01-11,BBQ Burger,Burger,7,13.99,Carol,6,Thursday,Lunch
+2024-01-11,Fries,Sides,7,4.99,Carol,6,Thursday,Lunch
+2024-01-11,Soft Drinks,Drinks,9,2.99,Alice,4,Thursday,Lunch
+2024-01-12,Pepperoni Pizza,Pizza,6,15.99,Bob,7,Friday,Dinner
+2024-01-12,House Wine,Drinks,6,6.99,Bob,7,Friday,Dinner
+2024-01-12,Cheesecake,Dessert,4,7.49,Alice,2,Friday,Dinner
+2024-01-13,Pancakes,Breakfast,9,10.99,Carol,3,Saturday,Brunch
+2024-01-13,Mimosa,Drinks,12,8.99,Carol,3,Saturday,Brunch
+2024-01-13,Avocado Toast,Breakfast,8,11.99,Alice,5,Saturday,Brunch
+2024-01-13,Margherita Pizza,Pizza,10,14.99,Bob,9,Saturday,Dinner
+2024-01-14,Eggs Benedict,Breakfast,6,12.99,Carol,1,Sunday,Brunch
+2024-01-14,Bloody Mary,Drinks,8,9.99,Alice,4,Sunday,Brunch
+2024-01-14,Caesar Salad,Salad,5,9.99,Bob,6,Sunday,Lunch
